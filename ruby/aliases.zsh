@@ -1,7 +1,6 @@
-alias r='rbenv local 1.8.7-p358'
+alias r='rbenv local 2.0.0-p195'
 
-alias sc='script/console'
-alias sg='script/generate'
-alias sd='script/destroy'
+alias sc='bundle exec rails console'
+alias sg='bundle exec rails generate'
 
-alias migrate='rake db:migrate db:test:clone'
+alias migrate='rake db:migrate db:test:prepare'
