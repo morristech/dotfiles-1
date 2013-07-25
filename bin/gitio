@@ -4,9 +4,6 @@
 # Turns a github.com URL
 #  into a git.io URL
 #
-# Created by @defunkt:
-#  https://gist.github.com/1209316 
-#
 # Copies the git.io URL to your clipboard.
 
 url  = ARGV[0]
